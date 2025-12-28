@@ -1,8 +1,11 @@
-{:dependencies 
-   [[com.pitch/uix.core "1.1.1"]
-    [com.pitch/uix.dom "1.1.1"]]
- :source-paths ["src"]
+{:dependencies
+ [[com.pitch/uix.core "1.4.8"]
+  [com.pitch/uix.dom "1.4.8"]]
+ :source-paths ["src" "resources"]
  :dev-http {3000 "public"}
- :builds 
-   {:app {:target :browser
-          :modules {:main {:init-fn app.main/init}}}}}
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js"
+        :asset-path "/js"
+        :compiler-options {:optimizations :advanced}
+        :modules {:main {:init-fn app.main/init}}}}}

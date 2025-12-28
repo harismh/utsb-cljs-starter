@@ -1,0 +1,5 @@
+{:libs [{:name "React" :version "19.2.3"}
+        {:name "UIx" :version "1.4.8"}
+        {:name "TailwindCSS" :version "4.1.18"}
+        {:name "ShadowCLJS" :version "3.3.4"}
+        {:name "Bun" :version "1.3.0"}]}
