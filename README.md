@@ -1,6 +1,6 @@
 # 🔌 utsb-cljs-starter
 
-<img width="828" alt="Screenshot 2024-10-09 at 13 15 08" src="https://github.com/user-attachments/assets/6a08b6b4-3f17-406a-a21a-456470067de9">
+<img width="867" height="428" alt="Screenshot 2025-12-28 at 11 34 25" src="https://github.com/user-attachments/assets/02619f09-7459-4ab6-8717-e18309845b89" />
 
 This repo started out as an exploratory exercise to help me familiarize myself with the latest CloureScript libraries and JavaScript tooling, namely:
 
